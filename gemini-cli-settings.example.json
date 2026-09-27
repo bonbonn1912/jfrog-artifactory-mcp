@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "artifactory": {
+      "command": "node",
+      "args": ["/absolute/path/to/jfrog-mcp/dist/index.js"],
+      "env": {
+        "ARTIFACTORY_URL": "https://acme.jfrog.io/artifactory",
+        "ARTIFACTORY_ACCESS_TOKEN": "$ARTIFACTORY_ACCESS_TOKEN"
+      },
+      "timeout": 30000,
+      "trust": false
+    }
+  }
+}
